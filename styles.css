@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body {
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 0 0 200px;
+}
+
+
+html {
+	position:relative;
+	min-height:100%;
+}
+
+
+header {
+	height:150px;
+	background-color:#0a2b45;
+	position:absolute;
+	width:100%;
+	left:0;
+	top:0;
+
+}
+
+header h1{
+	color:#FFFFFF;
+}
+
+
+headerlogo {
+	
+}
+
+
+main {
+	width:950px;
+	height:100%;
+	margin:150px auto 200px auto;
+	background-color:green;
+	padding:0;
+	position:fixed;
+	right:0;
+	left:0;
+}
+
+p {
+	padding:0;
+}
+
+
+nav {
+	
+	
+}
+
+
+footer {
+	position:absolute;
+	height:200px;
+	width:100%;
+	left:0;
+	bottom:0;
+	background-color:black;
+}
+
+
+#wrapper {
+	overflow:hidden;
+	
+}
+
+
+
+#content {
+	
+	
+}
+
+
+#contentpadding {
+	
+	
+}
+
