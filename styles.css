@@ -20,28 +20,46 @@ header {
 	width:100%;
 	left:0;
 	top:0;
-
 }
 
-header h1{
+banner {
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.logo {
+	width:950px;
+	margin:0 auto;
+}
+
+.logo h1 {
+	text-align:center;
+}
+
+.logo h3 {
+	color:#FFF;
+	text-align:center;
+	margin:0;
+}
+
+
+header h1 {
 	color:#FFFFFF;
 }
 
 
-headerlogo {
-	
-}
-
 
 main {
 	width:950px;
-	height:100%;
 	margin:150px auto 200px auto;
-	background-color:green;
+	background-color:#FFFFFF;
 	padding:0;
-	position:fixed;
 	right:0;
 	left:0;
+	-webkit-box-shadow: 0px 0px 44px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 44px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 44px 0px rgba(0,0,0,0.75);
+	overflow:hidden;
 }
 
 p {
@@ -49,37 +67,69 @@ p {
 }
 
 
-nav {
+#content {
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#contentcolumn {
+	float:left;
+	width:70%;
+}
+
+
+#rightcolumn {
+	float: left;
+	width: 30%; 
+	overflow:hidden;
+}
+
+#navcontainer {
+	width:600px;
+	margin:0 auto;
 	
+}
+
+#nav {
+	margin: 0 auto 0 auto;
+	padding: 0;
+	list-style: none;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc; 
+	bottom:0;
+	position:absolute;
+	width:950px;
+	
+}
+#nav li {
+	float: left; 
+	
+	
+}
+#nav li a {
+	display: block;
+	padding: 8px 31.6px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc; 
+	
+}
+
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff; 
 	
 }
 
 
-footer {
-	position:absolute;
+.site-footer {
 	height:200px;
 	width:100%;
-	left:0;
 	bottom:0;
 	background-color:black;
+	position:absolute;
 }
 
-
-#wrapper {
-	overflow:hidden;
-	
-}
-
-
-
-#content {
-	
-	
-}
-
-
-#contentpadding {
-	
-	
-}
 
