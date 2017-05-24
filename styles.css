@@ -73,6 +73,9 @@ p {
 	padding-left:10px;
 	padding-right:10px;
 }
+#content #contentcolumn {
+}
+
 
 
 #content h2 {
@@ -390,4 +393,11 @@ form ol input {
     box-sizing: border-box; 
     margin-top: 6px;
     margin-bottom: 16px;
+}
+button {
+	height: 50px; 
+	width: 220px; 
+	background-color: #116e8a; 
+	color: #ffffff; 
+	padding-bottom: 5px;
 }
