@@ -47,7 +47,41 @@ header h1 {
 	color:#FFFFFF;
 }
 
+.gallery {
+	width: 640px;
+	margin: 0 auto;
+	padding: 5px;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
 
+.gallery > div {
+	position: relative;
+	float: left;
+	padding: 5px;
+}
+
+.gallery > div > img {
+	display: block;
+	width: 200px;
+	transition: .1s transform;
+	transform: translateZ(0);
+}
+
+
+.gallery > div:hover {
+	z-index: 1;
+}
+
+.cf:before, .cf:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+
+.cf:after {
+	clear: both;
+}
 
 main {
 	width:950px;
@@ -68,14 +102,10 @@ p {
 	font-family:Tahoma, Geneva, sans-serif;
 }
 
-
-#content {
+ #content {
 	padding-left:10px;
 	padding-right:10px;
 }
-#content #contentcolumn {
-}
-
 
 
 #content h2 {
@@ -130,13 +160,12 @@ p {
 	
 }
 #nav li {
-	float: left; 
-	
-	
+	float: left;
 }
+
 #nav li a {
 	display: block;
-	padding: 8px 29.95px;
+	padding: 8px 32.35px;
 	text-decoration: none;
 	font-weight: bold;
 	color: #069;
@@ -189,6 +218,7 @@ li.dropdown {
 	background-color: #FFFFFF;
 	min-width: 160px;
 	border: 1px #ccc solid;
+	z-index: 1;
 
 }
 
@@ -393,11 +423,4 @@ form ol input {
     box-sizing: border-box; 
     margin-top: 6px;
     margin-bottom: 16px;
-}
-button {
-	height: 50px; 
-	width: 220px; 
-	background-color: #116e8a; 
-	color: #ffffff; 
-	padding-bottom: 5px;
 }
